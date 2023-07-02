@@ -1,0 +1,3 @@
+To run project  : node .
+To start new project : npm init -y
+To install express : npm install express
