@@ -3,6 +3,8 @@ const PORT = 3000;
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
-app.get('/', (req, res) => {
-  res.send('Hello World!');
+app.get('/login', (req, res) => {
+  res.status(200).send({
+    token : "abcdefgh"
+  });
 });
